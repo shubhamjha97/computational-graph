@@ -16,7 +16,7 @@ Please note that this code has been tested only with Python3.6 and above. The co
 - `gradient` function provides autodiff capabilities
 
 ## Examples
-Import the library like so-
+Import the library-
 ```python
 >>> import computational_graph as cg
 >>> from computational_graph import Var, gradient
@@ -31,7 +31,7 @@ print(z) 	# 7
 
 type(z)		# <class 'computational_graph.basic.Var'>
 
-# Also note that, we can also perform an operation with a Var and an int or float like so-
+# Also note that, we can also perform an operation with a Var and an int or float-
 z = x + 6	# 11
 
 # Other supported basic ops
