@@ -2,6 +2,11 @@ import computational_graph as cg
 from computational_graph import Var, gradient
 
 
+def sigmoid(x):
+	exp_ = cg.exp()
+	return 1 / (1 + exp_(-x))
+
+
 # Addition
 x = Var(4) 			# create new variable
 y = Var(5) 			# create new variable
