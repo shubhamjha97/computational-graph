@@ -79,3 +79,4 @@ print(gradient(z, x)) 	# -0.6065306597126334
 - Add functionality for plotting the computational graph
 - Add support for detaching gradients
 - Add support for commonly used neural network functions (e.g. sigmoid, softmax, ReLU, etc.)
+- Detailed documentation (if things work out and I'm able to add numpy arrays support )
