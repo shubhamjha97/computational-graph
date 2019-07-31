@@ -71,6 +71,8 @@ def sigmoid(x):
 x = Var(0.5)
 z = sigmoid(x)
 print(z)				# 1.6065306597126334
+
+# Calculate dz/dx (Gradient of z w.r.t x)
 print(gradient(z, x)) 	# -0.6065306597126334
 ```
 
