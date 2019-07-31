@@ -27,7 +27,7 @@ Import the library-
 x = Var(5)
 y = Var(6)
 z = x + y	# Addition
-print(z) 	# 7
+print(z) 	# 11
 
 type(z)		# <class 'computational_graph.basic.Var'>
 
