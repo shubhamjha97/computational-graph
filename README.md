@@ -33,6 +33,7 @@ type(z)		# <class 'computational_graph.basic.Var'>
 
 # Also note that, we can also perform an operation with a Var and an int or float-
 z = x + 6	# 11
+type(z)		# <class 'computational_graph.basic.Var'>
 
 # Other supported basic ops
 z = x - y	# Subtraction
